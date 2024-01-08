@@ -1,0 +1,55 @@
+body {
+  margin: 1%;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.App-header {
+  padding: 1%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-logo {
+  margin-left: 5%;
+  height: 50px;
+}
+
+.App-menu {
+  height: 50px;
+  margin-right: 5%;
+}
+
+.Header-down {
+  padding-top: 10%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 60%;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+  font-size: 2em;
+  flex-basis: 250px;
+  text-decoration: none;
+}
+
+.Icons-box {
+  padding: 2%;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+}
+.Icon-box {
+  size: 5%;
+  font-size: large;
+}
